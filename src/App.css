@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app__wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.app__panel {
+  border: 2px solid grey;
+  padding: 14px 20px;
+  border-radius: 12px;
+  min-width: 150px;
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.app__panel,
+.app__action-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.app__panel > div {
+  border: 2px solid #242424;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.app__panel > div:hover {
+  border-color: rgb(157, 157, 230);
+}
+
+.app__panel > .app__item-highlighted {
+  border-color: rgb(105, 105, 218);
+}
