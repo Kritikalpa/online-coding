@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { generate, count } from "random-words";
+import { generate } from "random-words";
 
 const data = [
   { title: "First", id: 0, checked: false },
